@@ -5,15 +5,19 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-//require('./bootstrap');
-
-window._ = require('lodash');
+// window._ = require('lodash');
 window.$ = window.jQuery = require('jquery');
 
 
 // CSRF Laravel Code -- Below --
-window.axios = require('axios');
-window.axios.defaults.headers.common = {
-    'X-CSRF-TOKEN': window.Laravel.csrfToken,
-    'X-Requested-With': 'XMLHttpRequest'
-};
+// window.axios = require('axios');
+// window.axios.defaults.headers.common = {
+//     'X-CSRF-TOKEN': window.Laravel.csrfToken,
+//     'X-Requested-With': 'XMLHttpRequest'
+// };
+
+$(function(){
+
+	
+	
+});
